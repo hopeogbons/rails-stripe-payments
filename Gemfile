@@ -38,6 +38,8 @@ end
 group :production do
   # Use postgres as the database for Active Record
   gem 'pg'
+  # 12 factor for heroku
+  gem 'rails_12factor'
 end
 
 group :development do
